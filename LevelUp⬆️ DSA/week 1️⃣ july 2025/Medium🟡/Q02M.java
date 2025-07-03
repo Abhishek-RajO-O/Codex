@@ -7,7 +7,7 @@ Example :
 Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 Output: [8,9,9,9,0,0,0,1]
  */
-public class Q2 {
+public class Q02M {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode ans = new ListNode();
         ListNode temp  = ans;
