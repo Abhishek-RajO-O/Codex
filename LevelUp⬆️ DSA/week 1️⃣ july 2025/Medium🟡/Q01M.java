@@ -10,7 +10,7 @@ Example 1:
 Input: nums = [4,5,6,7,0,1,2], target = 0
 Output: 4
  */
-public class Q1M1 {
+public class Q01M {
     public int search(int[] nums, int target) {
 
         int peak=BinarySearch(nums,0,nums.length-1);
