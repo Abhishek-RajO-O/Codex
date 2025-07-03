@@ -17,7 +17,7 @@ Explanation:
 
 The possible strings are: "abbcccc", "abbccc", "abbcc", "abbc", and "abcccc".
  */
-public class Q01E {
+public class Q01E1 {
     public int possibleStringCount(String word) {
         return count(word)+1;
     }
