@@ -9,7 +9,7 @@ Input: nums = [1,2,0]
 Output: 3
 Explanation: The numbers in the range [1,2] are all in the array.
  */
-public class Q01 {
+public class Q01H {
     class Solution {
     public int firstMissingPositive(int[] nums) {
         sort(nums);
