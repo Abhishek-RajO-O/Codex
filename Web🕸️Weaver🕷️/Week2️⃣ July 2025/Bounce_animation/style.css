@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+.contaner{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    left: 50px;
+    animation: moveX 3s linear 0s infinite forwards , 
+           moveY 2s ease-out 0s infinite forwards ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes moveX{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    50%{
+        transform: translateX(20vw)  translateY(50vh);
+    }
+    100%{
+        transform: translateX(40vw) translateY(0)
+    }
+}
